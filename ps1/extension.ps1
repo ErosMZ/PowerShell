@@ -1,4 +1,4 @@
-﻿cls
+﻿Host-Clear
 $ruta = Read-Host "Dime la ruta donde quieres buscar los ficheros"
 $extensión = Read-Host "Dime la extensión que buscas"
 $rutaDes = "C:\Users\Malaperra\Downloads"
