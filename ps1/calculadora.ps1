@@ -39,8 +39,17 @@ elseif($QueVaHacer -eq 4){
     Write-Host "El resultado de la multiplicación $valor1 * $valor2 es $multi"
 }
 elseif($QueVaHacer -eq 5){
-    $valor1 = [int]$valor1
-    $valor2 = [int]$valor2
-    $multi= $valor1 * $valor2
-    Write-Host "El resultado de la multiplicación $valor1 * $valor2 es $multi"
+     $veces= 1
+     $acumulador = 1
+     $base= Read-Host "Dime la base"
+     $exponente= Read-Host "Dime el exponente"
+    while($veces -le $exponente){
+
+        $acumulador = $acumulador * $base
+        
+        $veces++
+        
+    }
+    Write-Host $acumulador
+    
 }
