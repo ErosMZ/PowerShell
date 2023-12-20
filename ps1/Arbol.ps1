@@ -1,4 +1,4 @@
-#triangulo
+﻿#triangulo
 Clear-Host
 $veces = Read-Host "Dime el tamaño"
 $array= @()
